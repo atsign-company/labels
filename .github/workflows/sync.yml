@@ -15,4 +15,4 @@ jobs:
         run: |
           ./unify_labels.py people-labels.yaml testrun.yaml atsign-foundation
         env:
-          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_API_TOKEN: ${{ secrets.REPO_TOKEN }}
