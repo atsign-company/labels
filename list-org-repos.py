@@ -37,8 +37,9 @@ def list_org_repos():
     json_repos = json.loads(response.text)
     f = open(repos_file, 'w')
     for repo in json_repos:
-        f.write ('---\n')
-        f.write (f'name: {repo["name"]}\n')
+        if not(repo["archived"]):
+            f.write ('---\n')
+            f.write (f'name: {repo["name"]}\n')
     f.close
 
 list_org_repos()
