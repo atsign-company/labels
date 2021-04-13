@@ -25,7 +25,7 @@ if len(sys.argv) != 4:
     sys.exit(1)
 
 def dump_all_labels(repo):
-    # Remove all labels in a repo
+    # Retrieve all labels in a repo
     response = requests.get(baseurl + "/repos/" + repo + "/labels", 
         headers=headers, 
         auth=(user, token))
