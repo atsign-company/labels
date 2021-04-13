@@ -1,0 +1,17 @@
+name: Sync
+on: push
+jobs:
+  sync-atsign-foundation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9 #install the python needed
+      - name: execute unify_labels.py
+        run: unify_labels.py people-labels.yaml testrun.yaml atsign-foundation
+        env:
+          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
