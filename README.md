@@ -14,22 +14,22 @@ Used to remove existing labels from a repo:
 
 ### dump_github_labels.py
 
-Dump the labels in an existing repo to a file:
+Dump the labels in an existing repo to a file:  
 `./dump_github_labels.py github-labels.yaml user/org_name repo_name`
 
 ### list_org_repos.py
 
-List the repos in an org to a file:
+List the repos in an org to a file:  
 `./list_org_repos.py myorg-repos.yaml org_name`
 
 ### push_github_labels.py
 
-Push a set of labels from a file to a repo:
+Push a set of labels from a file to a repo:  
 `./push_github_labels.py github-labels.yaml user/org_name repo_name`
 
 ### unify_labels.py
 
-Push a set of labels from a file to a list of repos within an org:
+Push a set of labels from a file to a list of repos within an org:  
 `./unify_labels.py github-labels.yaml myorg-repos.yaml org_name`
 
 ## Lists:
