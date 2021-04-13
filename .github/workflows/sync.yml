@@ -13,6 +13,6 @@ jobs:
           python-version: 3.9 #install the python needed
       - name: execute unify_labels.py
         run: |
-          ./unify_labels.py github-labels.yaml atsign-foundation.yaml atsign-foundation
+          ./unify_labels.py github-labels.yaml atsign-foundation-repos.yaml atsign-foundation
         env:
           GITHUB_API_TOKEN: ${{ secrets.REPO_TOKEN }}
