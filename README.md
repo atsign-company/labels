@@ -5,6 +5,11 @@ Repo to push a standard set of labels to the other repos we use so that we have 
 
 [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) see [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/) for more detail
 
+## Automation
+
+There's a GitHub Action configured in this repo that runs `unify.py` to apply the labels from `github-labels.yaml` to the repos listed in `atsign-foundation.yaml`.
+The action runs every time a change is pushed to this repo (such as an additon to the labels file).
+
 ## Python scripts:
 
 ### clear_github_labels.py
