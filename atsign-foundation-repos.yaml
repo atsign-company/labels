@@ -1,6 +1,4 @@
 ---
-name: hello
----
 name: at_server
 ---
 name: at_client_sdk
