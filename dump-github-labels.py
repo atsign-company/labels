@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # Python helper to dump labels from a Github repo
+# Inspired by github-labels.py from DXC DevOps Dojo
+# https://github.com/dxc-technology/online-devops-dojo/blob/master/online-devops-dojo/welcome/assets/github-labels.py
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
