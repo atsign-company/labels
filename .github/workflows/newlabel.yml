@@ -1,0 +1,25 @@
+name: Newlabel
+on:
+  label:
+    types: [created]
+    
+jobs:
+  regenerate-github-labels:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9 #install the python needed
+      - name: execute dump_github_labels.py
+        run: |
+          ./dump_github_labels.py github-labels.yaml atsign-company labels
+          git config --global user.name 'Label Action'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -am 'Automated label addition'
+          git push
+        env:
+          GITHUB_API_TOKEN: ${{ secrets.REPO_TOKEN }}
