@@ -39,10 +39,6 @@ Push a set of labels from a file to a list of repos within an org:
 
 ## Lists:
 
-### atsign-company-repos.yaml
-
-Repos in the atsign-company org.
-
 ### atsign-foundation-repos.yaml
 
 Repos in the atsign-foundation org
