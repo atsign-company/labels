@@ -7,8 +7,11 @@ Repo to push a standard set of labels to the other repos we use so that we have 
 
 ## Automation
 
-There's a GitHub Action configured in this repo that runs `unify.py` to apply the labels from `github-labels.yaml` to the repos listed in `atsign-foundation.yaml`.
+There's a GitHub Action `Sync` configured in this repo that runs `unify.py` to apply the labels from `github-labels.yaml` to the repos listed in `atsign-foundation.yaml`.
 The action runs every time a change is pushed to this repo (such as an additon to the labels file).
+
+There's also a `Newlabel` Action that adds runs when new labels are added to this repo, running `dump_github_labels.py` to create a new `github-labels.yaml`
+and then `unify.py` to sync like above.
 
 ## Python scripts:
 
