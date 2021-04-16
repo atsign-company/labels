@@ -1,9 +1,25 @@
+<img src="https://atsign.dev/assets/img/@developersmall.png?sanitize=true">
+
+### Now for a little internet optimism
+
 # labels
 Repo to push a standard set of labels to the other repos we use so that we have consistent labeling
 
 ## LICENSE
 
 [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) see [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/) for more detail
+
+## Contributions
+
+If you find a bug then please raise an [issue](https://github.com/atsign-company/labels/issues).
+
+We'd also love to get [pull requests](https://github.com/atsign-company/labels/pulls)
+for improvements.
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+Our [code of conduct](code_of_conduct.md) is based on
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
 ## Automation
 
@@ -12,6 +28,10 @@ The action runs every time a change is pushed to this repo (such as an additon t
 
 There's also a `Newlabel` Action that adds runs when new labels are added to this repo, running `dump_github_labels.py` to create a new `github-labels.yaml`
 and then `unify.py` to sync like above.
+
+The Action uses a Secret called `REPO_TOKEN` which is a
+[Personal access token](https://github.com/settings/tokens) scoped for repo
+from an account with access to the target organisation repos.
 
 ## Python scripts:
 
