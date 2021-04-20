@@ -15,13 +15,13 @@ COLRESET="\033[m"
 baseurl = 'https://api.github.com'
 headers = {"Content-Type": "application/json", "Accept": "application/vnd.github.v3+json"}
 
-user = sys.argv[1]
-token = os.environ['GITHUB_API_TOKEN']
-repo = user + "/" + sys.argv[2]
-
 if len(sys.argv) != 3:
     print("   Usage: " + sys.argv[0] + " user/org_name repo_name")
     sys.exit(1)
+    
+user = sys.argv[1]
+token = os.environ['GITHUB_API_TOKEN']
+repo = user + "/" + sys.argv[2]
 
 def remove_all_labels(repo):
     # Remove all labels in a repo

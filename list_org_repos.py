@@ -15,13 +15,13 @@ COLRESET="\033[m"
 baseurl = 'https://api.github.com'
 headers = {"Content-Type": "application/json", "Accept": "application/vnd.github.v3+json"}
 
-repos_file = sys.argv[1]
-org = sys.argv[2]
-token = os.environ['GITHUB_API_TOKEN']
-
 if len(sys.argv) != 3:
     print("   Usage: " + sys.argv[0] + " myorg-repos.yaml org_name")
     sys.exit(1)
+
+repos_file = sys.argv[1]
+org = sys.argv[2]
+token = os.environ['GITHUB_API_TOKEN']
 
 def list_org_repos():
     # Remove all labels in a repo
