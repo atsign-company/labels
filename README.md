@@ -5,11 +5,11 @@
 # labels
 Repo to push a standard set of labels to the other repos we use so that we have consistent labeling
 
-## LICENSE
+## LICENSE:
 
 [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) see [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/) for more detail
 
-## Contributions
+## Contributions:
 
 If you find a bug then please raise an [issue](https://github.com/atsign-company/labels/issues).
 
@@ -21,7 +21,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 Our [code of conduct](code_of_conduct.md) is based on
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
-## Automation
+## Automation:
 
 There's a GitHub Action `Sync` configured in this repo that runs `unify.py` to apply the labels from `github-labels.yaml` to the repos listed in `atsign-foundation.yaml`.
 The action runs every time a change is pushed to this repo (such as an additon to the labels file).
@@ -78,10 +78,14 @@ Test set with additional label
 
 Smaller set of repos in atsign-foundation for testing
 
-## Acknowledgement
+## Acknowledgement:
 
 Thanks to the [DXC Online DevOps Dojo](https://github.com/dxc-technology/online-devops-dojo) team for the [github-labels.py](https://github.com/dxc-technology/online-devops-dojo/blob/master/online-devops-dojo/welcome/assets/github-labels.py) script that's used in the Welcome module.
 
 ## Todo:
 
 GitHub don't (yet) seem to have a public API to update the label defaults in an org, but once they do it will be useful to sync those too.
+
+## Known issues:
+
+Labels with a : in the name or description will cause the Python YAML parser to throw exceptions.
