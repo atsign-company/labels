@@ -3,11 +3,11 @@
 ### Now for a little internet optimism
 
 # labels
-Repo to push a standard set of labels to the other repos we use so that we have consistent labeling
+Repo to push a standard set of labels to the other repos we use so that we have consistent labeling.
 
 ## LICENSE:
 
-[Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) see [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/) for more detail
+[Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) see [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/) for more detail.
 
 ## Contributions:
 
