@@ -13,6 +13,8 @@ import os, sys, json, requests, yaml
 # Reference: https://gist.github.com/chrisopedia/8754917
 COLINFO="\033[0;35m"
 COLRESET="\033[m"
+COLUPDATE="\033[0;33m"
+COLWARN="\033[0;31m"
 
 baseurl = 'https://api.github.com'
 headers = {"Content-Type": "application/json", "Accept": "application/vnd.github.v3+json"}
@@ -51,20 +53,36 @@ def push_labels(repo):
                 auth=(user, token))
             if response.status_code != 201:
                 # An error occured
-                print(COLINFO + "Error adding label " + label['name'] + ": " + str(response.status_code) + " " + response.text + COLRESET)
+                print(COLWARN + "Error adding label " + label['name'] + ": " + str(response.status_code) + " " + response.text + COLRESET)
             else:
                 sys.stdout.write(COLINFO + "." + COLRESET)
                 sys.stdout.flush()
         else:
-            sys.stdout.write(".")
-            sys.stdout.flush()
+            # Check descriptions match
+            if there_already.json()['description'] == label['description']:
+                sys.stdout.write(".")
+                sys.stdout.flush()
+            else:
+                payload = json.dumps({
+                    "new_name" : label['name'],
+                    "description": label['description'],
+                    "color" : label['color']
+                    })
+                response = requests.patch(baseurl + "/repos/" + repo + "/labels/" + label['name'],
+                    data=payload,
+                    headers=headers,
+                    auth=(user, token))
+                sys.stdout.write(COLUPDATE + "." + COLRESET)
+                sys.stdout.flush()
+                if response.status_code != 200:
+                    print(COLWARN + "Error updating label " + label['name'] + ": " + str(response.status_code) + " " + response.text + COLRESET)
 
     print(COLRESET)
 
 try:
     repos = yaml.load_all(open(repos_file, 'r'), Loader=yaml.FullLoader)
 except yaml.YAMLError as exc:
-    print(COLINFO + exc + COLRESET)
+    print(COLWARN + exc + COLRESET)
 
 for repo in repos:
     full_repo_name = user + "/" + repo['name']
