@@ -17,14 +17,14 @@ COLRESET="\033[m"
 baseurl = 'https://api.github.com'
 headers = {"Content-Type": "application/json", "Accept": "application/vnd.github.v3+json"}
 
+if len(sys.argv) != 4:
+    print("   Usage: " + sys.argv[0] + " github-labels.yaml user/org_name repo_name")
+    sys.exit(1)
+
 labels_file = sys.argv[1]
 user = sys.argv[2]
 token = os.environ['GITHUB_API_TOKEN']
 repo = user + "/" + sys.argv[3]
-
-if len(sys.argv) != 4:
-    print("   Usage: " + sys.argv[0] + " github-labels.yaml user/org_name repo_name")
-    sys.exit(1)
 
 def dump_all_labels(repo):
     # Retrieve all labels in a repo
