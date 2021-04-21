@@ -1,3 +1,7 @@
+<img src="https://atsign.dev/assets/img/@dev.png?sanitize=true">
+
+### Now for a little internet optimism
+
 # Contributing guidelines
 
 We :heart: [Pull Requests](https://help.github.com/articles/about-pull-requests/)
