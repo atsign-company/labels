@@ -23,6 +23,10 @@ name: 8 SP
 description: 8 Story Points - 5 Days Large
 color: D4C5F9
 ---
+name: @persona
+description: GTM Task Lists
+color: FBCA04
+---
 name: PR10
 description: Sprint Plan 10 _ 19 Apr 21 - 2 May 21
 color: FEF2C0
