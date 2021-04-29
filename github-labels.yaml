@@ -23,6 +23,10 @@ name: 8 SP
 description: 8 Story Points - 5 Days Large
 color: D4C5F9
 ---
+name: @buzz
+description: GTM Task List
+color: FBCA04
+---
 name: @persona
 description: GTM Task Lists
 color: FBCA04
