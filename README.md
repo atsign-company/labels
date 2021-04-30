@@ -89,3 +89,4 @@ GitHub don't (yet) seem to have a public API to update the label defaults in an 
 ## Known issues:
 
 Labels with a : in the name or description will cause the Python YAML parser to throw exceptions.
+Labels that start with @ will cause the Python YAML parser to throw exceptions.
