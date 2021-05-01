@@ -41,9 +41,9 @@ def dump_all_labels(repo):
     f = open(labels_file, 'w')
     for label in json_labels:
         f.write ('---\n')
-        f.write (f'name: {label["name"]}\n')
-        f.write (f'description: {label["description"]}\n')
-        f.write (f'color: {label["color"]}\n')
+        f.write (f'name: "{label["name"]}"\n')
+        f.write (f'description: "{label["description"]}"\n')
+        f.write (f'color: "{label["color"]}"\n')
     f.close
 
 dump_all_labels(repo)
