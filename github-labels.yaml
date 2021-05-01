@@ -32,38 +32,38 @@ description: "GTM Task Lists"
 color: "FBCA04"
 ---
 name: "PR10"
-description: "Sprint Plan 10 _ 19 Apr 21 - 2 May 21"
+description: "Sprint Plan 10 : 19 Apr 21 - 2 May 21"
 color: "FEF2C0"
 ---
 name: "PR11"
-description: "Sprint Plan 11 _ 3 May 21 - 16 May 21"
+description: "Sprint Plan 11 : 3 May 21 - 16 May 21"
 color: "FEF2C0"
 ---
 name: "PR12"
-description: "Sprint Plan 12 _ 17 May 21 - 30 May 21"
+description: "Sprint Plan 12 : 17 May 21 - 30 May 21"
 color: "FEF2C0"
 ---
 name: "PR13"
-description: "Sprint Plan 13 _ 31 May 21 - 13 Jun 21"
+description: "Sprint Plan 13 : 31 May 21 - 13 Jun 21"
 color: "FEF2C0"
 ---
 name: "PR8"
-description: "Sprint Plan 8 _ 21 Mar 21 - 4 Apr21"
+description: "Sprint Plan 8 : 21 Mar 21 - 4 Apr 21"
 color: "FEF2C0"
 ---
 name: "PR9"
-description: "Sprint Plan 9 _ 5 Apr 21 - 18 Apr 21"
+description: "Sprint Plan 9 : 5 Apr 21 - 18 Apr 21"
 color: "FEF2C0"
 ---
-name: "at_mospherePro"
+name: "@mospherePro"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
-name: "at_persona"
+name: "@persona"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
-name: "at_rrive"
+name: "@rrive"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
