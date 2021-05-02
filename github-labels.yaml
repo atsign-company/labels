@@ -31,6 +31,18 @@ name: "@mosphere"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
+name: "@mospherePro"
+description: "GTM Task Lists"
+color: "FBCA04"
+---
+name: "@persona"
+description: "GTM Task Lists"
+color: "FBCA04"
+---
+name: "@rrive"
+description: "GTM Task Lists"
+color: "FBCA04"
+---
 name: "PR10"
 description: "Sprint Plan 10 : 19 Apr 21 - 2 May 21"
 color: "FEF2C0"
@@ -55,15 +67,15 @@ name: "PR9"
 description: "Sprint Plan 9 : 5 Apr 21 - 18 Apr 21"
 color: "FEF2C0"
 ---
-name: "@mospherePro"
+name: "at_mospherePro"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
-name: "@persona"
+name: "at_persona"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
-name: "@rrive"
+name: "at_rrive"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
@@ -106,7 +118,3 @@ color: "d1260f"
 name: "security vulnerability"
 description: "Security vulnerability detected by WhiteSource"
 color: "d1260f"
----
-name: "wontfix"
-description: "This will not be worked on"
-color: "ffffff"
