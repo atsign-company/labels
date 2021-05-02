@@ -24,7 +24,7 @@ org = sys.argv[2]
 token = os.environ['GITHUB_API_TOKEN']
 
 def list_org_repos():
-    # Remove all labels in a repo
+    # Get list of all repos in an org
     response = requests.get(baseurl + "/orgs/" + org + "/repos", 
         headers=headers, 
         auth=(org, token))
