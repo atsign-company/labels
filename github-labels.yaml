@@ -79,6 +79,10 @@ name: "bug"
 description: "Something isn't working"
 color: "d73a4a"
 ---
+name: "dependencies"
+description: "Pull requests that update a dependency file"
+color: "0366d6"
+---
 name: "documentation"
 description: "Improvements or additions to documentation"
 color: "0075ca"
@@ -114,7 +118,3 @@ color: "d1260f"
 name: "security vulnerability"
 description: "Security vulnerability detected by WhiteSource"
 color: "d1260f"
----
-name: "wontfix"
-description: "This will not be worked on"
-color: "ffffff"
