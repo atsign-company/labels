@@ -16,9 +16,10 @@ jobs:
           python-version: 3.9 #install the python needed
       - name: execute dump_github_labels.py then unify_labels.py # sync action not fired by this push
         run: |
-          ./dump_github_labels.py github-labels.yaml atsign-company labels
           git config --global user.name 'Label Action'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull
+          ./dump_github_labels.py github-labels.yaml atsign-company labels
           git commit -am 'Automated label addition'
           git push
           ./unify_labels.py github-labels.yaml atsign-foundation-repos.yaml atsign-foundation
