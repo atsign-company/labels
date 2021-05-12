@@ -43,6 +43,10 @@ name: "@rrive"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
+name: "PR0"
+description: "Sprint Plan 0: 12 May 21 - 17 May 21"
+color: "FEF2C0"
+---
 name: "PR10"
 description: "Sprint Plan 10 : 19 Apr 21 - 2 May 21"
 color: "FEF2C0"
@@ -106,3 +110,7 @@ color: "d1260f"
 name: "security vulnerability"
 description: "Security vulnerability detected by WhiteSource"
 color: "d1260f"
+---
+name: "wontfix"
+description: "This will not be worked on"
+color: "ffffff"
