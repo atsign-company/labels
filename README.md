@@ -82,6 +82,30 @@ Smaller set of repos in atsign-foundation for testing
 
 Thanks to the [DXC Online DevOps Dojo](https://github.com/dxc-technology/online-devops-dojo) team for the [github-labels.py](https://github.com/dxc-technology/online-devops-dojo/blob/master/online-devops-dojo/welcome/assets/github-labels.py) script that's used in the Welcome module.
 
+## Known issues:
+
+When multiple labels are added in quick succession the automation runs may fail when
+they get to `git push` because another automation run has changed the repo since it
+was pulled:
+
+```
+To https://github.com/atsign-company/labels
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/atsign-company/labels'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Error: Process completed with exit code 1.
+```
+
+The code has been refactored to minimise the window for this happening, but it's still possible.
+
+Where there are subsequent successful runs there's no need to do anything. If the most recent run
+fails in this way then simply rerun it.
+
 ## Todo:
 
-GitHub don't (yet) seem to have a public API to update the label defaults in an org, but once they do it will be useful to sync those too.
+GitHub don't (yet) seem to have a public API to update the label defaults in an org,
+but once they do it will be useful to sync those too.
