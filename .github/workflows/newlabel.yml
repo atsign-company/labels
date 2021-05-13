@@ -20,8 +20,13 @@ jobs:
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git pull
           ./dump_github_labels.py github-labels.yaml atsign-company labels
-          git commit -am 'Automated label addition'
-          git push
-          ./unify_labels.py github-labels.yaml atsign-foundation-repos.yaml atsign-foundation
+          if [ -z "$(git status --porcelain)" ]; then 
+            echo 'No changes to commit on this run'
+            exit 0
+          else
+            git commit -am 'Automated label addition'
+            git push
+            ./unify_labels.py github-labels.yaml atsign-foundation-repos.yaml atsign-foundation
+          fi
         env:
           GITHUB_API_TOKEN: ${{ secrets.REPO_TOKEN }}
