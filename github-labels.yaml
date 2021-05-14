@@ -81,7 +81,7 @@ color: "FBCA04"
 ---
 name: "bug"
 description: "Something isn't working"
-color: "d73a4a"
+color: "B60205"
 ---
 name: "dependencies"
 description: "Pull requests that update a dependency file"
