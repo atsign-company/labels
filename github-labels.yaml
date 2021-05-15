@@ -84,7 +84,7 @@ description: "Sprint planning for launching 2.0"
 color: "FBCA04"
 ---
 name: "blocker"
-description: "Flagging for team support"
+description: "Flagging for resolution"
 color: "B60205"
 ---
 name: "bug"
