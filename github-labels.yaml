@@ -43,10 +43,6 @@ name: "@rrive"
 description: "GTM Task Lists"
 color: "FBCA04"
 ---
-name: "Blocker"
-description: "Flagging for team support"
-color: "B60205"
----
 name: "PR10 - Engineering"
 description: "Sprint Plan 10 : 19 Apr 21 - 2 May 21"
 color: "FEF2C0"
@@ -78,6 +74,10 @@ color: "FEF2C0"
 name: "atsign.dev 2.0"
 description: "Sprint planning for launching 2.0"
 color: "FBCA04"
+---
+name: "blocker"
+description: "Flagging for team support"
+color: "B60205"
 ---
 name: "bug"
 description: "Something isn't working"
