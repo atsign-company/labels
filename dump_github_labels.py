@@ -28,7 +28,8 @@ repo = user + "/" + sys.argv[3]
 
 def dump_all_labels(repo):
     # Retrieve all labels in a repo
-    response = requests.get(baseurl + "/repos/" + repo + "/labels", 
+    response = requests.get(baseurl + "/repos/" + repo + "/labels",
+        params={'per_page' : 100},
         headers=headers, 
         auth=(user, token))
     if response.status_code != 200:
