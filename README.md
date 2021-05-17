@@ -84,6 +84,8 @@ Thanks to the [DXC Online DevOps Dojo](https://github.com/dxc-technology/online-
 
 ## Known issues:
 
+### Race condition
+
 When multiple labels are added in quick succession the automation runs may fail when
 they get to `git push` because another automation run has changed the repo since it
 was pulled:
@@ -105,7 +107,13 @@ The code has been refactored to minimise the window for this happening, but it's
 Where there are subsequent successful runs there's no need to do anything. If the most recent run
 fails in this way then simply rerun it.
 
+### Max 100 labels
+
+The dump utility will only dump the first page of labels at its max size of 100.
+
 ## Todo:
 
 GitHub don't (yet) seem to have a public API to update the label defaults in an org,
 but once they do it will be useful to sync those too.
+
+Add page checking to dump utility for >100 labels.
