@@ -45,15 +45,15 @@ color: "1D76DB"
 ---
 name: "P1"
 description: "Priority 1"
-color: "0E8A16"
+color: "B60205"
 ---
 name: "P2"
 description: "Priority 2"
-color: "C2E0C6"
+color: "FBCA04"
 ---
 name: "P3"
 description: "Priority 3"
-color: "E99695"
+color: "0E8A16"
 ---
 name: "PR10"
 description: "Apr | May 2021 Sprint Planning"
