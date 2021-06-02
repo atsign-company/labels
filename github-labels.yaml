@@ -87,6 +87,10 @@ name: "PR9"
 description: "Apr 2021 Sprint Planning"
 color: "FEF2C0"
 ---
+name: "SEO"
+description: "Requires SEO"
+color: "1D76DB"
+---
 name: "UI/UX"
 description: "User Interface and User Experience"
 color: "5319e7"
