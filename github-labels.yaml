@@ -101,11 +101,11 @@ color: "B60205"
 ---
 name: "dependencies"
 description: "Pull requests that update a dependency file"
-color: "0366d6"
+color: "1D76DB"
 ---
 name: "documentation"
 description: "Improvements or additions to documentation"
-color: "0075ca"
+color: "1D76DB"
 ---
 name: "duplicate"
 description: "This issue or pull request already exists"
