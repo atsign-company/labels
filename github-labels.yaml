@@ -43,9 +43,21 @@ name: "CX"
 description: "People Support, Customer Experience, Bug Session Feedback"
 color: "1D76DB"
 ---
+name: "Comms"
+description: "Ext Marketing comms"
+color: "1D76DB"
+---
 name: "Content"
 description: "Creation, writing, editing, review"
 color: "1D76DB"
+---
+name: "Email"
+description: "Email Marketing"
+color: "1D76DB"
+---
+name: "Next Release"
+description: ""
+color: "5319E7"
 ---
 name: "P1"
 description: "Priority 1"
@@ -76,6 +88,10 @@ description: "May | Jun 2021 Sprint Planning"
 color: "FEF2C0"
 ---
 name: "PR14"
+description: "Jun 2021 Sprint Planning"
+color: "FEF2C0"
+---
+name: "PR15"
 description: "Jun 2021 Sprint Planning"
 color: "FEF2C0"
 ---
@@ -110,6 +126,10 @@ color: "1D76DB"
 name: "UI/UX"
 description: "User Interface and User Experience"
 color: "5319e7"
+---
+name: "Video"
+description: "Marketing video"
+color: "1D76DB"
 ---
 name: "atsign.dev 2.0"
 description: "AtSign.dev Tracking"
