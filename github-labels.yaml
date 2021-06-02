@@ -43,6 +43,10 @@ name: "CX"
 description: "People Support, Customer Experience, Bug Session Feedback"
 color: "1D76DB"
 ---
+name: "Content"
+description: "Creation, editing, review"
+color: "1D76DB"
+---
 name: "P1"
 description: "Priority 1"
 color: "B60205"
