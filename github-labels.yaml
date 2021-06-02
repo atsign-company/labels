@@ -95,12 +95,16 @@ name: "SEO"
 description: "Requires SEO"
 color: "1D76DB"
 ---
+name: "Strategic"
+description: "Strategic 12 Mos"
+color: "1D76DB"
+---
 name: "Strategic 1-3"
 description: "Strategic Marketing 1-3 Mos"
 color: "1D76DB"
 ---
 name: "Strategic 1-6"
-description: "Strategic Marketing 1-6"
+description: "Strategic Marketing 1-6 Mos"
 color: "1D76DB"
 ---
 name: "UI/UX"
