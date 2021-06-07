@@ -111,16 +111,16 @@ name: "SEO"
 description: "Requires SEO"
 color: "1D76DB"
 ---
+name: "Strategic 12"
+description: "12 Mo Project"
+color: "1D76DB"
+---
 name: "Strategic 3"
 description: "3 Mo Project"
 color: "1D76DB"
 ---
 name: "Strategic 6"
 description: "6 Mo Project"
-color: "1D76DB"
----
-name: "Strategic 6-12"
-description: "Strategic Marketing 12 Mos"
 color: "1D76DB"
 ---
 name: "UI/UX"
