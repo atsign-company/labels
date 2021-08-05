@@ -207,8 +207,8 @@ name: "PR18"
 description: "Aug 2021 Sprint Planning"
 color: "FEF2C0"
 ---
-name: "Core - Issue"
-description: "Core related issue"
+name: "Issue - Core"
+description: "Core tech issue impacting our ability to release"
 color: "1d76db"
 ---
 name: "SDK - Issue"
