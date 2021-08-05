@@ -209,7 +209,7 @@ color: "FEF2C0"
 ---
 name: "Issue - Core"
 description: "Core tech issue impacting our ability to release"
-color: "1d76db"
+color: "D93F0B"
 ---
 name: "Issue - SDK"
 description: "SDK tech issue impacting our ability to release"
