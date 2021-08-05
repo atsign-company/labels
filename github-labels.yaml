@@ -37,7 +37,7 @@ color: "FEF2C0"
 ---
 name: "bug"
 description: "Something isn't working"
-color: "B60205"
+color: "D93F0B"
 ---
 name: "documentation"
 description: "Improvements or additions to documentation"
