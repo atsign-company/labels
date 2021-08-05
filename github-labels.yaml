@@ -210,3 +210,7 @@ color: "FEF2C0"
 name: "Core - Issue"
 description: "Core related issue"
 color: "1d76db"
+---
+name: "SDK - Issue"
+description: "SDK related issue"
+color: "1D76DB"
