@@ -121,11 +121,11 @@ color: "1D76DB"
 ---
 name: "blocker"
 description: "Flagging for resolution"
-color: "B60205"
+color: "D93F0B"
 ---
 name: "P1"
 description: "Priority 1"
-color: "B60205"
+color: "D93F0B"
 ---
 name: "P2"
 description: "Priority 2"
