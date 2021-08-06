@@ -214,3 +214,7 @@ color: "D93F0B"
 name: "Issue - SDK"
 description: "SDK tech issue impacting our ability to release"
 color: "D93F0B"
+---
+name: "PR19"
+description: "Aug 2021 Sprint Planning"
+color: "FEF2C0"
