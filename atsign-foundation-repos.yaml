@@ -1,4 +1,6 @@
 ---
+name: at_virtual_environment
+---
 name: at_server
 ---
 name: at_client_sdk
@@ -22,3 +24,17 @@ name: at_index
 name: archetype
 ---
 name: atsign.dev
+---
+name: dess
+---
+name: apps
+---
+name: atsign_pipeline_test
+---
+name: at_docsy
+---
+name: at_base2e15
+---
+name: at-dart-utf7
+---
+name: at_protocol
