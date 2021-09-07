@@ -1,118 +1,18 @@
 ---
-name: "@mospherePro"
-description: "@mospherePro Tracking"
-color: "FBCA04"
----
-name: "wavi"
-description: "Wavi Tracking"
-color: "FBCA04"
----
-name: "@rrive"
-description: "@rrive Tracking"
-color: "FBCA04"
----
-name: "atsign.dev 2.0"
-description: "AtSign.dev Tracking"
-color: "FBCA04"
----
-name: "dependencies"
-description: "Pull requests that update a dependency file"
-color: "1D76DB"
----
-name: "blocker"
-description: "Flagging for resolution"
-color: "D93F0B"
----
-name: "P1"
-description: "Priority 1"
-color: "D93F0B"
----
-name: "P2"
-description: "Priority 2"
-color: "FBCA04"
----
-name: "P3"
-description: "Priority 3"
-color: "0E8A16"
----
-name: "UI/UX"
-description: "User Interface and User Experience"
-color: "5319e7"
----
-name: "CX"
-description: "People Support, Customer Experience, Bug Session Feedback"
-color: "1D76DB"
----
-name: "PR14"
-description: "Jun 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "prod"
-description: "Reported in production"
-color: "5319E7"
----
-name: "Content"
-description: "Creation, writing, editing, review"
-color: "1D76DB"
----
-name: "SEO"
-description: "Requires SEO"
-color: "1D76DB"
----
-name: "Recurring"
-description: "Lights on Marketing Tasks"
-color: "1D76DB"
----
-name: "Strategic 3"
-description: "3 Mo Project"
-color: "1D76DB"
----
-name: "Strategic 6"
-description: "6 Mo Project"
-color: "1D76DB"
----
-name: "Strategic 12"
-description: "12 Mo Project"
-color: "1D76DB"
----
-name: "Video"
-description: "Marketing video"
-color: "1D76DB"
----
-name: "Comms"
-description: "Ext Marketing comms"
-color: "1D76DB"
----
-name: "Email"
-description: "Email Marketing"
-color: "1D76DB"
----
-name: "PR15"
-description: "Jun | Jul 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "Next Release"
-description: ""
-color: "5319E7"
----
-name: "PR16"
-description: "Jul 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "PR17"
-description: "Jul | Aug 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "PR18"
-description: "Aug 2021 Sprint Planning"
-color: "FEF2C0"
----
 name: "@buzz"
 description: "Buzz Tracking"
 color: "FBCA04"
 ---
 name: "@mosphere"
 description: "@mosphere Tracking"
+color: "FBCA04"
+---
+name: "@mospherePro"
+description: "@mospherePro Tracking"
+color: "FBCA04"
+---
+name: "@rrive"
+description: "@rrive Tracking"
 color: "FBCA04"
 ---
 name: "1 SP"
@@ -143,9 +43,33 @@ name: "8 SP"
 description: "8 Story Points - 5 Days Large"
 color: "D4C5F9"
 ---
+name: "atsign.dev 2.0"
+description: "AtSign.dev Tracking"
+color: "FBCA04"
+---
+name: "blocker"
+description: "Flagging for resolution"
+color: "D93F0B"
+---
 name: "bug"
 description: "Something isn't working"
 color: "D93F0B"
+---
+name: "Comms"
+description: "Ext Marketing comms"
+color: "1D76DB"
+---
+name: "Content"
+description: "Creation, writing, editing, review"
+color: "1D76DB"
+---
+name: "CX"
+description: "People Support, Customer Experience, Bug Session Feedback"
+color: "1D76DB"
+---
+name: "dependencies"
+description: "Pull requests that update a dependency file"
+color: "1D76DB"
 ---
 name: "documentation"
 description: "Improvements or additions to documentation"
@@ -154,6 +78,10 @@ color: "1D76DB"
 name: "duplicate"
 description: "This issue or pull request already exists"
 color: "cfd3d7"
+---
+name: "Email"
+description: "Email Marketing"
+color: "1D76DB"
 ---
 name: "enhancement"
 description: "New feature or request"
@@ -179,6 +107,22 @@ name: "Issue - SDK"
 description: "SDK tech issue impacting our ability to release"
 color: "D93F0B"
 ---
+name: "Next Release"
+description: ""
+color: "5319E7"
+---
+name: "P1"
+description: "Priority 1"
+color: "D93F0B"
+---
+name: "P2"
+description: "Priority 2"
+color: "FBCA04"
+---
+name: "P3"
+description: "Priority 3"
+color: "0E8A16"
+---
 name: "PR10"
 description: "Apr | May 2021 Sprint Planning"
 color: "FEF2C0"
@@ -195,11 +139,35 @@ name: "PR13"
 description: "May | Jun 2021 Sprint Planning"
 color: "FEF2C0"
 ---
+name: "PR14"
+description: "Jun 2021 Sprint Planning"
+color: "FEF2C0"
+---
+name: "PR15"
+description: "Jun | Jul 2021 Sprint Planning"
+color: "FEF2C0"
+---
+name: "PR16"
+description: "Jul 2021 Sprint Planning"
+color: "FEF2C0"
+---
+name: "PR17"
+description: "Jul | Aug 2021 Sprint Planning"
+color: "FEF2C0"
+---
+name: "PR18"
+description: "Aug 2021 Sprint Planning"
+color: "FEF2C0"
+---
 name: "PR19"
 description: "Aug 2021 Sprint Planning"
 color: "FEF2C0"
 ---
 name: "PR20"
+description: "Sept 2021 Sprint Planning"
+color: "FEF2C0"
+---
+name: "PR21"
 description: "Sept 2021 Sprint Planning"
 color: "FEF2C0"
 ---
@@ -211,9 +179,17 @@ name: "PR9"
 description: "Apr 2021 Sprint Planning"
 color: "FEF2C0"
 ---
+name: "prod"
+description: "Reported in production"
+color: "5319E7"
+---
 name: "question"
 description: "Further information is requested"
 color: "d876e3"
+---
+name: "Recurring"
+description: "Lights on Marketing Tasks"
+color: "1D76DB"
 ---
 name: "security fix"
 description: "Security fix (may be auto generated by WhiteSource)"
@@ -222,6 +198,34 @@ color: "D93F0B"
 name: "security vulnerability"
 description: "Security vulnerability (may be auto generated by Whitesource)"
 color: "D93F0B"
+---
+name: "SEO"
+description: "Requires SEO"
+color: "1D76DB"
+---
+name: "Strategic 12"
+description: "12 Mo Project"
+color: "1D76DB"
+---
+name: "Strategic 3"
+description: "3 Mo Project"
+color: "1D76DB"
+---
+name: "Strategic 6"
+description: "6 Mo Project"
+color: "1D76DB"
+---
+name: "UI/UX"
+description: "User Interface and User Experience"
+color: "5319e7"
+---
+name: "Video"
+description: "Marketing video"
+color: "1D76DB"
+---
+name: "wavi"
+description: "Wavi Tracking"
+color: "FBCA04"
 ---
 name: "wontfix"
 description: "This will not be worked on"
