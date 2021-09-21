@@ -191,8 +191,8 @@ name: "Recurring"
 description: "Lights on Marketing Tasks"
 color: "1D76DB"
 ---
-name: "response/interaction"
-description: "Bug or Issue requiring a response"
+name: "Response Req"
+description: "Bug or Issue requiring a response/interaction"
 color: "d93f0b"
 ---
 name: "security fix"
