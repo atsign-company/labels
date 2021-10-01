@@ -91,6 +91,10 @@ name: "good first issue"
 description: "Good for newcomers"
 color: "7057ff"
 ---
+name: "Hacktoberfest"
+description: ""
+color: "0052CC"
+---
 name: "help wanted"
 description: "Extra attention is needed"
 color: "008672"
