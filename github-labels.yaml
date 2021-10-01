@@ -95,6 +95,10 @@ name: "Hacktoberfest"
 description: ""
 color: "0052CC"
 ---
+name: "hacktoberfest-accepted"
+description: ""
+color: "0052CC"
+---
 name: "help wanted"
 description: "Extra attention is needed"
 color: "008672"
