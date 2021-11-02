@@ -43,6 +43,10 @@ name: "8 SP"
 description: "8 Story Points - 5 Days Large"
 color: "D4C5F9"
 ---
+name: "Architecture"
+description: "Architecture Design"
+color: "bfd4f2"
+---
 name: "atsign.dev 2.0"
 description: "AtSign.dev Tracking"
 color: "FBCA04"
