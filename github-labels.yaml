@@ -251,6 +251,10 @@ name: "UI/UX"
 description: "User Interface and User Experience"
 color: "5319e7"
 ---
+name: "unplanned"
+description: "Unplanned work mid-sprint plan"
+color: "FBCA04"
+---
 name: "Video"
 description: "Marketing video"
 color: "1D76DB"
