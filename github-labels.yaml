@@ -240,7 +240,7 @@ description: "Further information is requested"
 color: "d876e3"
 ---
 name: "Recurring"
-description: "Lights on Marketing Tasks"
+description: "Recurring tasks | to dos"
 color: "1D76DB"
 ---
 name: "Root Cause"
