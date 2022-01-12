@@ -111,6 +111,10 @@ name: "invalid"
 description: "This doesn't seem right"
 color: "e4e669"
 ---
+name: "IoT"
+description: "Target Dev Partnerships"
+color: "5319E7"
+---
 name: "Issue - Core"
 description: "Core tech issue impacting our ability to release"
 color: "D93F0B"
