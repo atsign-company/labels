@@ -83,6 +83,10 @@ name: "enhancement"
 description: "New feature or request"
 color: "a2eeef"
 ---
+name: "Entrepreneurs"
+description: "Dev Traction Priority"
+color: "5319E7"
+---
 name: "good first issue"
 description: "Good for newcomers"
 color: "7057ff"
