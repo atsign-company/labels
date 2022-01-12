@@ -43,6 +43,10 @@ name: "Architecture"
 description: "Architecture Design"
 color: "bfd4f2"
 ---
+name: "Biz Dev"
+description: "Relationships | Partnerships"
+color: "D93F0B"
+---
 name: "blocker"
 description: "Flagging for resolution"
 color: "D93F0B"
@@ -78,6 +82,10 @@ color: "1D76DB"
 name: "duplicate"
 description: "This issue or pull request already exists"
 color: "cfd3d7"
+---
+name: "Engineering"
+description: "Relationships | Partnerships"
+color: "D93F0B"
 ---
 name: "enhancement"
 description: "New feature or request"
@@ -122,6 +130,10 @@ color: "D93F0B"
 name: "Issue - SDK"
 description: "SDK tech issue impacting our ability to release"
 color: "D93F0B"
+---
+name: "Marketing"
+description: "All GTM Tasks"
+color: "0052CC"
 ---
 name: "Next Release"
 description: ""
