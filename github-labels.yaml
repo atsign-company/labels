@@ -84,7 +84,11 @@ description: "New feature or request"
 color: "a2eeef"
 ---
 name: "Entrepreneurs"
-description: "Target Dev"
+description: "Target Developers"
+color: "5319E7"
+---
+name: "Flutter Devs"
+description: "Target Developers"
 color: "5319E7"
 ---
 name: "good first issue"
