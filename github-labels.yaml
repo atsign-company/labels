@@ -255,6 +255,10 @@ name: "Q122 Dev Traction"
 description: "Green cards from jam board session"
 color: "0E8A16"
 ---
+name: "Q122 Partnerships"
+description: "Green cards from jam board session"
+color: "0E8A16"
+---
 name: "question"
 description: "Further information is requested"
 color: "d876e3"
