@@ -135,6 +135,10 @@ name: "Marketing"
 description: "All GTM Tasks"
 color: "0052CC"
 ---
+name: "Migrated"
+description: "Migrated from Marketing board"
+color: "7BBD00"
+---
 name: "Next Release"
 description: ""
 color: "5319E7"
