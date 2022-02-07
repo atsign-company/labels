@@ -11,7 +11,7 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2.4.0 # checkout the repository content to github runner.
       - name: setup python
-        uses: actions/setup-python@v2.3.1
+        uses: actions/setup-python@v2.3.2
         with:
           python-version: 3.9 #install the python needed
       - name: execute dump_github_labels.py then unify_labels.py # sync action not fired by this push
