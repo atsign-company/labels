@@ -271,6 +271,10 @@ name: "Recurring"
 description: "Recurring tasks | to dos"
 color: "1D76DB"
 ---
+name: "Req Functional Test"
+description: "Functional Testing Required"
+color: "E99695"
+---
 name: "Root Cause"
 description: "Root Cause Analysis Needed"
 color: "E99695"
