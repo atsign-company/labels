@@ -71,7 +71,7 @@ name: "CX"
 description: "People Support, Customer Experience, Bug Session Feedback"
 color: "1D76DB"
 ---
-name: "dependencies"
+name: "dependency"
 description: "Pull requests that update a dependency file"
 color: "1D76DB"
 ---
