@@ -155,30 +155,6 @@ name: "P3"
 description: "Priority 3"
 color: "0E8A16"
 ---
-name: "PR10"
-description: "Apr | May 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "PR11"
-description: "May 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "PR12"
-description: "May 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "PR13"
-description: "May | Jun 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "PR14"
-description: "Jun 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "PR15"
-description: "Jun | Jul 2021 Sprint Planning"
-color: "FEF2C0"
----
 name: "PR16"
 description: "Jul 2021 Sprint Planning"
 color: "FEF2C0"
@@ -247,12 +223,8 @@ name: "PR32"
 description: "Mar 2022 Sprint Planning"
 color: "FEF2C0"
 ---
-name: "PR8"
-description: "Mar | Apr 2021 Sprint Planning"
-color: "FEF2C0"
----
-name: "PR9"
-description: "Apr 2021 Sprint Planning"
+name: "PR33"
+description: "Mar 2022 Sprint Planning"
 color: "FEF2C0"
 ---
 name: "prod"
