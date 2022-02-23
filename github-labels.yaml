@@ -271,17 +271,9 @@ name: "SEO"
 description: "Requires SEO"
 color: "1D76DB"
 ---
-name: "Strategic 12"
-description: "12 Mo Project"
-color: "1D76DB"
----
-name: "Strategic 3"
-description: "3 Mo Project"
-color: "1D76DB"
----
-name: "Strategic 6"
-description: "6 Mo Project"
-color: "1D76DB"
+name: "Spike"
+description: "Eng Spike Work"
+color: "C2E0C6"
 ---
 name: "UI/UX"
 description: "User Interface and User Experience"
