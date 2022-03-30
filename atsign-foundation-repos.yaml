@@ -1,6 +1,4 @@
 ---
-name: at_virtual_environment
----
 name: at_server
 ---
 name: at_client_sdk
