@@ -43,6 +43,22 @@ name: "8 SP"
 description: "8 Story Points - 5 Days Large"
 color: "D4C5F9"
 ---
+name: "Acceptance Test"
+description: "Test - Acceptance Test Phase"
+color: "1FCDBC"
+---
+name: "App Design Content"
+description: "Content Design Phase"
+color: "D4C5F9"
+---
+name: "App Development"
+description: "App Development Phase"
+color: "D4C5F9"
+---
+name: "App Logic Design"
+description: "Logic Design Phase"
+color: "D4C5F9"
+---
 name: "App UI Design"
 description: "UI Design Phase"
 color: "D4C5F9"
@@ -110,6 +126,10 @@ color: "008672"
 name: "Infrastructure"
 description: "Projects | Tasks related to the infrastructure"
 color: "E99695"
+---
+name: "Integration Test"
+description: "Test - Integration Test Phase"
+color: "1FCDBC"
 ---
 name: "invalid"
 description: "This doesn't seem right"
@@ -247,6 +267,10 @@ name: "Recurring"
 description: "Recurring tasks | to dos"
 color: "1D76DB"
 ---
+name: "Release to Stores"
+description: "App release to stores"
+color: "9E8AF7"
+---
 name: "Req Functional Test"
 description: "Functional Testing Required"
 color: "E99695"
@@ -279,6 +303,10 @@ name: "UI/UX"
 description: "User Interface and User Experience"
 color: "5319e7"
 ---
+name: "Unit Test"
+description: "Test - Unit Test Phase"
+color: "1FCDBC"
+---
 name: "unplanned"
 description: "Unplanned work mid-sprint plan"
 color: "FBCA04"
@@ -290,6 +318,10 @@ color: "1D76DB"
 name: "Waiting for response"
 description: "Bug or Issue requiring a response/interaction"
 color: "d93f0b"
+---
+name: "Widget Development"
+description: "Widget Development"
+color: "D4C5F9"
 ---
 name: "wontfix"
 description: "This will not be worked on"
