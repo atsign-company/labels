@@ -121,7 +121,7 @@ color: "0052CC"
 ---
 name: "help wanted"
 description: "Extra attention is needed"
-color: "008672"
+color: "D93F0B"
 ---
 name: "Infrastructure"
 description: "Projects | Tasks related to the infrastructure"
