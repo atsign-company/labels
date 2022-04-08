@@ -35,6 +35,10 @@ name: "3 SP"
 description: "3 Story Points - 1 Day Small"
 color: "D4C5F9"
 ---
+name: "4 SP"
+description: "4 Story Points - More than 1 day less than 3 days"
+color: "D4C5F9"
+---
 name: "5 SP"
 description: "5 Story Points - 3 Days Medium"
 color: "D4C5F9"
