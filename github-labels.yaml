@@ -299,6 +299,10 @@ name: "SPIKES"
 description: "Eng Spike Work"
 color: "C2E0C6"
 ---
+name: "Tracking Card"
+description: "Card for tracking multiple tickets under one master card"
+color: "EC306A"
+---
 name: "Traction"
 description: "Projects Driving Traction"
 color: "0E8A16"
