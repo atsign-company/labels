@@ -107,6 +107,10 @@ name: "enhancement"
 description: "New feature or request"
 color: "a2eeef"
 ---
+name: "Goal Card"
+description: "Rolled up goal cards"
+color: "006b75"
+---
 name: "good first issue"
 description: "Good for newcomers"
 color: "7057ff"
