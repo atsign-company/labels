@@ -183,6 +183,10 @@ name: "P3"
 description: "Priority 3"
 color: "0E8A16"
 ---
+name: "Performance Testing"
+description: "Performance Testing Gate"
+color: "1FCDBC"
+---
 name: "PR20"
 description: "Sept 2021 Sprint Planning"
 color: "FEF2C0"
