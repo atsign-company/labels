@@ -260,15 +260,23 @@ description: "May 2022 Sprint Planning"
 color: "FEF2C0"
 ---
 name: "PR38"
-description: "May 2022 Sprint Planning"
+description: "May | Jun 2022 Sprint Planning"
 color: "FEF2C0"
 ---
 name: "PR39"
-description: "May | Jun 2022 Sprint Planning"
+description: "Jun 2022 Sprint Planning"
 color: "FEF2C0"
 ---
 name: "PR40"
 description: "Jun 2022 Sprint Planning"
+color: "FEF2C0"
+---
+name: "PR41"
+description: "Jun | Jul 2022 Sprint Planning"
+color: "FEF2C0"
+---
+name: "PR42"
+description: "Jun | Jul 2022 Sprint Planning"
 color: "FEF2C0"
 ---
 name: "prod"
