@@ -1,6 +1,4 @@
-<img src="https://atsign.dev/assets/img/@dev.png?sanitize=true">
-
-### Now for a little internet optimism
+<img width=250px src="https://atsign.dev/assets/img/@platform_logo_grey.svg?sanitize=true">
 
 # labels
 Repo to push a standard set of labels to the other repos we use so that we have consistent labeling.
