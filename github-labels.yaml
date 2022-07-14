@@ -1,8 +1,4 @@
 ---
-name: "@mosphere"
-description: "@mosphere Tracking"
-color: "FBCA04"
----
 name: "@rrive"
 description: "@rrive Tracking"
 color: "FBCA04"
@@ -69,6 +65,10 @@ color: "bfd4f2"
 ---
 name: "atBuzz"
 description: "Buzz Tracking"
+color: "FBCA04"
+---
+name: "atmosphere"
+description: "@mosphere Tracking"
 color: "FBCA04"
 ---
 name: "Biz Dev"
