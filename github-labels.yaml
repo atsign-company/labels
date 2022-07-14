@@ -1,8 +1,4 @@
 ---
-name: "@buzz"
-description: "Buzz Tracking"
-color: "FBCA04"
----
 name: "@mosphere"
 description: "@mosphere Tracking"
 color: "FBCA04"
@@ -70,6 +66,10 @@ color: "D4C5F9"
 name: "Architecture"
 description: "Architecture Design"
 color: "bfd4f2"
+---
+name: "atBuzz"
+description: "Buzz Tracking"
+color: "FBCA04"
 ---
 name: "Biz Dev"
 description: "Relationships | Partnerships"
