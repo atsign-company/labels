@@ -1,8 +1,4 @@
 ---
-name: "@rrive"
-description: "@rrive Tracking"
-color: "FBCA04"
----
 name: "0 SP"
 description: "No SP's assigned"
 color: "D4C5F9"
@@ -62,6 +58,10 @@ color: "D4C5F9"
 name: "Architecture"
 description: "Architecture Design"
 color: "bfd4f2"
+---
+name: "atArrive"
+description: "@rrive Tracking"
+color: "FBCA04"
 ---
 name: "atBuzz"
 description: "Buzz Tracking"
