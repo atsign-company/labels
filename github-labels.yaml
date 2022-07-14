@@ -295,7 +295,7 @@ name: "prod"
 description: "Reported in production"
 color: "5319E7"
 ---
-name: "Q122 @mospherePro"
+name: "Q122 atmospherePro"
 description: "Green cards from jam board session"
 color: "0E8A16"
 ---
