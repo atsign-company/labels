@@ -55,6 +55,10 @@ name: "App UI Design"
 description: "UI Design Phase"
 color: "D4C5F9"
 ---
+name: "arch call"
+description: "Flagging for architecture call discussion"
+color: "c5def5"
+---
 name: "Architecture"
 description: "Architecture Design"
 color: "bfd4f2"
