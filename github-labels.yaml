@@ -39,6 +39,10 @@ name: "Acceptance Test"
 description: "Test - Acceptance Test Phase"
 color: "1FCDBC"
 ---
+name: "allstar"
+description: "None"
+color: "ededed"
+---
 name: "App Design Content"
 description: "Content Design Phase"
 color: "D4C5F9"
