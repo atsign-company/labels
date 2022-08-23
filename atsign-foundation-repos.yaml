@@ -48,3 +48,5 @@ name: atsign.dev-3.0
 name: .github
 ---
 name: at_java
+---
+name: seccheck
