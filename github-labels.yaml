@@ -139,6 +139,18 @@ name: "hacktoberfest-accepted"
 description: ""
 color: "0052CC"
 ---
+name: "Beginner"
+description: "This issue is easily resolved"
+color: "66FF33"
+---
+name: "Intermediate"
+description: "This issue will take some knowledge of defined language"
+color: "FFFF00"
+---
+name: "Advanced"
+description: "This issue will take considerable knowledge/understanding of defined language"
+color: "FF0000"
+---
 name: "help wanted"
 description: "Extra attention is needed"
 color: "D93F0B"
