@@ -36,6 +36,7 @@ def push_labels(repo):
     except yaml.YAMLError as exc:
         print(COLINFO + exc + COLRESET)
 
+    labels = list(labels)
     # Populate the labels
     for label in labels:
         payload = json.dumps({
